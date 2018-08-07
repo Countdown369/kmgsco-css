@@ -1,0 +1,71 @@
+.main-navigation {
+    position: relative;
+    background: #ffffff;
+}
+
+.site-footer {
+    background: #ffffff;
+    padding-top: 3em;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    color: #000000;
+    font-family: "Arial Black", sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.8;
+    word-wrap: break-word;
+		letter-spacing: -0.05em
+}
+
+.main-navigation .menu ul li a {
+    color: #000;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.site-branding .site-title a {
+    color: #000;
+}
+
+.search-icon {
+		position: relative;
+		color: black;
+	  font-size: 0px;
+    cursor: pointer;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.main-navigation .icon-search {
+    right: 0;
+    border-left: 1px solid #000000;
+}
+
+.site-footer{
+	display: none;
+}
+
+.entry-title{
+  text-align: center;
+	font-size: 30px;
+}
+
+.featured-item-image{
+	display: none;
+}
+
+.entry-content{
+	position: relative;
+	bottom: 120px;
+}
