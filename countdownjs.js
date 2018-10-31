@@ -19,4 +19,4 @@ function progress(timeleft, timetotal, $element) {
     }
 };
 
-progress((1544850000 - (Math.floor(Date.now() / 1000))), 3888000, jQuery($('#progressBar')));
+progress((1544850000 - (Math.floor(Date.now() / 1000))), 3888000, jQuery('#progressBar'));
