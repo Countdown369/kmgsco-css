@@ -1,6 +1,6 @@
 jQuery(document).ready(function() {	
 function progress(timeleft, timetotal, $element) {
-    var progressBarWidth = (3888000-timeleft) * $element.width() / timetotal;
+    var progressBarWidth = (946800-timeleft) * $element.width() / timetotal;
     var messtime = timeleft;
     var days = Math.floor(messtime / (3600*24));
     messtime -= days*3600*24;
@@ -20,6 +20,6 @@ function progress(timeleft, timetotal, $element) {
     }
 };
 
-progress((1544698800 - (Math.floor(Date.now() / 1000))), 3888000, jQuery('#progressBar'));
+progress((1544738400 - (Math.floor(Date.now() / 1000))), 946800, jQuery('#progressBar'));
 
 });
